@@ -6,6 +6,34 @@ body{
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 }
+.col-md-3 img {  
+    display: block;    
+    width: 100%;  
+    transform: scale(1);  
+    transition: all 1s ease 0s;  
+    -webkit-transform: scale(1);  
+    -webkit-transform: all 1s ease 0s;  
+}
+.col-md-3:hover img {  
+    transform: scale(0.8);  
+    transition: all 1s ease 0s;  
+    -webkit-transform: scale(0.8);  
+    -webkit-transform: all 1s ease 0s;  
+}
+.col-md-6 img {  
+    display: block;    
+    width: 100%;  
+    transform: scale(1);  
+    transition: all 1s ease 0s;  
+    -webkit-transform: scale(1);  
+    -webkit-transform: all 1s ease 0s;  
+}
+.col-md-6:hover img {  
+    transform: scale(1.06);  
+    transition: all 1s ease 0s;  
+    -webkit-transform: scale(1.06);  
+    -webkit-transform: all 1s ease 0s;  
+}
 .yh{
 	font-family:'Microsoft YaHei'
 }
