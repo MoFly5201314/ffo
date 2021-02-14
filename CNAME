@@ -1,1 +1,0 @@
-ajax.googleapis.com
